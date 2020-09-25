@@ -1,0 +1,67 @@
+@mixin Flex-Col-Center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin Flex-Row-Center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin Flex-Between {
+  display: flex;
+  justify-content: space-between;
+}
+
+//fonts
+@mixin Font-Small-Regular {
+  font-family: $font-sf;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+
+
+}
+
+@mixin Font-Body-Regular {
+  font-family: $font-sf;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+
+  /* grey/90 */
+
+  color: #222222;
+}
+
+@mixin bg-image {
+  max-width: 100%;
+  max-height: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+@mixin h3-bold {
+  //styleName: h3-bold;
+  font-family: $font-sf;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: $color-grey-90;
+
+}

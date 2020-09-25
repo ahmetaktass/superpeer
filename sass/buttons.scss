@@ -1,0 +1,81 @@
+@import "./variable.scss";
+
+
+.button-outline {
+    max-width: 100%;
+    height: 48px;
+    background-color: $color-white;
+    border: 1px solid $color-primary;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    color: $color-primary;
+    font-family: $font-sf;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.button-primary {
+    max-width: 100%;
+    height: 48px;
+    background-color: $color-primary;
+    border: 1px solid $color-primary;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    color: $color-white;
+    font-family: $font-sf;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+.input-normal {
+    width: 100%;
+    height: 48px;
+    background-color: $color-white;
+    border: 1px solid $color-grey-40;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    padding-left: 16px;
+    color: $color-grey-90;
+    font-family: $font-sf;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.dropdown-normal {
+    width: 100%;
+    height: 48px;
+    background-color: $color-white;
+    border: 1px solid $color-grey-40;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    color: $color-grey-90;
+    font-family: $font-sf;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+//setting-controls start
